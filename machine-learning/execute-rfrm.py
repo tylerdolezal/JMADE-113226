@@ -6,7 +6,7 @@ from joblib import load
 sns.set_theme()
 sns.set_style('ticks')
 
-X = np.load("training_scripts/new-x-matrix.npy")
+X = np.load("new-x-matrix.npy")
 
 
 model = load('rf_model_for_constants.pkl')
@@ -26,4 +26,4 @@ X = Xscaler.transform(X)
 print(X.shape)
 predict = yscaler.inverse_transform(model.predict(X))
 print(predict.shape)
-np.save("training_scripts/new-y-matrix.npy", predict)
+np.save("new-y-matrix.npy", predict)
