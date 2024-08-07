@@ -1,0 +1,120 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                     ElastoMechanical Simulations                     +
++                                using                                 +
++                        ElasTool Version: 2.1                         +
++             Calculations ended at 17:30:42 on 2024-07-09             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++-====================================================================-+
++----------------------------------------------------------------------+
+| -------------------------------------------------------              |
+|        Elastic Constants and Mechanical Properties                   |
++----------------------------------------------------------------------+
+| C11 = 512.675 GPa                                                    |
+| C22 = 512.168 GPa                                                    |
+| C33 = 512.574 GPa                                                    |
+| C12 = 192.454 GPa                                                    |
+| C13 = 192.424 GPa                                                    |
+| C23 = 192.676 GPa                                                    |
+| C44 = 125.630 GPa                                                    |
+| C55 = 125.798 GPa                                                    |
+| C66 = 125.801 GPa                                                    |
+| C14 = 0.038 GPa                                                      |
+| C15 = -0.033 GPa                                                     |
+| C16 = 0.061 GPa                                                      |
+| C24 = -0.095 GPa                                                     |
+| C25 = -0.022 GPa                                                     |
+| C26 = 0.143 GPa                                                      |
+| C34 = -0.082 GPa                                                     |
+| C35 = -0.101 GPa                                                     |
+| C36 = -0.008 GPa                                                     |
+| C45 = -0.023 GPa                                                     |
+| C46 = -0.017 GPa                                                     |
+| C56 = 0.082 GPa                                                      |
+| B_vrh = 299.169 GPa                                                  |
+| G_vrh = 142.860 GPa                                                  |
+| Young's modulus (E) = 369.729 GPa                                    |
+| Cauchy's Pressure (A) = 66.824 GPa                                   |
+| Poisson's ratio (V) = 0.294                                          |
+| Sound velocity (V_t) = 2.973 Km/s                                    |
+| Sound velocity (V_l) = 4.302 Km/s                                    |
+| Sound velocity (V_p) = 5.503 Km/s                                    |
+| Sound velocity (V_d) = 3.318 Km/s                                    |
+| Debye temperature (T_d) = 392.421 K                                  |
+| Kleinman’s parameter (Q) = 0.641                                     |
+| Lame's parameter (M_1) = 203.929 N/m                                 |
+| Lame's parameter (M_2) = 142.860 N/m                                 |
+| Grüneisen parameter (S) = 1.736                                      |
+| Pugh's modulus ratio (P) = 0.478                                     |
+| Min thermal conductivity (K_clarke) = 0.036 W/(m.K)                  |
+| Min thermal conductivity (K_cahill) = 1.123 W/(m.K)                  |
+| Thermal conductivity @ 300 K (K_cahill_lowt) = 0.352 W/(m.K)         |
+| Thermal conductivity @ 300 K (K_slack) = 0.002 W/(m.K)               |
+| Thermal conductivity @ 300 K (K_slack_lowt) = 3.349 W/(m.K)          |
+| Heat capacity @ 300 K (H_cv) = 2935.876 J/(mol⋅K)                    |
+| Entropy @ 300 K (S_entropy) = 3531.030 J/(mol⋅K)                     |
+| Entropy @ 300 K (S_debyeentropy) = 3532.625 J/(mol⋅K)                |
+| Mean-free path @ 300 K (P_mfp) = 1909697469.672 µm                   |
+| Linear compressibility (C[100]) = 2.45e+00 TPa^-1                    |
+| Linear compressibility (C[110]) = 2.88e+00 TPa^-1                    |
+| Linear compressibility (C[010]) = 2.46e+00 TPa^-1                    |
+| Linear compressibility (C[111]) = 3.02e+00 TPa^-1                    |
+| Linear compressibility (C_avg) = 2.70e+00 TPa^-1                     |
+| Ductility test (D) = Material is ductile                             |
++----------------------------------------------------------------------+
+| Hardness (H) and Fracture Toughness (F) Analysis                     |
+| WARNING: An empirical approximation; check validity!                 |
++----------------------------------------------------------------------+
+| Hardness (H1a) = 21.07 GPa;  Ref.[1]                                 |
+| Hardness (H1b) = 22.43 GPa;  Ref.[1]                                 |
+| Hardness (H1c) = 28.81 GPa;  Ref.[2]                                 |
+| Hardness (H2)  = 23.46 GPa;  Ref.[3]                                 |
+| Hardness (H3)  = 22.37 GPa;  Ref.[4]                                 |
+| Hardness (H4)  = 15.87 GPa;  Ref.[1]                                 |
+| Hardness (H5)  = 12.35 GPa;  Ref.[5]                                 |
+| Hardness (H6)  = 12.35 GPa;  Ref.[6]                                 |
+| Hardness (H7)  = 19.05 GPa;  Ref.[7]                                 |
+| Fracture Toughness (F1)  = 7.36 MPa m¹/₂;  Ref.[5]                   |
+| Fracture Toughness (F2)  = 8.92 MPa m¹/₂;  Ref.[6]                   |
+| Fracture Toughness (F3)  = 5.93 MPa m¹/₂;  Ref.[6]                   |
+| -------------------------------------------------------------------- |
+|    Cubic      Hexagonal  Orthorhombic   Rhombohedral  General        |
+| -------------------------------------------------------------------- |
+| I  All,F1-2   All,F1-2  H2,H6,H7,F1-2  All,F1-2  H2,H6,H7,F1-2       |
+| S  All,F1-2   All,F1-2  H2,H6,H7,F1-2  All,F1-2  H5,H6,H7,F1-2       |
+| M  H1a,H7,F3  H4,H7,F3  H4,H7,F3       H4,H7,F3  H4,H7,F3            |
+| -------------------------------------------------------------------- |
+| Insulator (I)     : bandgap > 2 eV                                   |
+| Semiconductor (S) : bandgap < 2 eV                                   |
+| Metal (M)         : bandgap = 0                                      |
+| -------------------------------------------------------------------- |
+| References                                                           |
++----------------------------------------------------------------------+
+| [1] Comp. Mater. Sci. 50 (2011)                                      |
+| [2] Scientific Reports, 3776 (2022)                                  |
+| [3] MRS Bull. 23, 22 (1998)                                          |
+| [4] J. Phys.: Condens. Matter 22 315503 (2010)                       |
+| [5] Intermetallics 19, 1275 (2011)                                   |
+| [6] J. Appl. Phys. 125, 065105 (2019)                                |
+| [7] J. Appl. Phys. 126, 125109 (2019)                                |
+|                                                                      |
++-====================================================================-+
++------------------------------------------------------------------------------+
+|                                 * CITATIONS *                                |
+| ---------------------------------------------------------------------------- |
+|           If you have used Elastool in your research, PLEASE cite:           |
+|                                                                              |
+|      ElasTool: An automated toolkit for elastic constants calculation,       |
+|         Z.-L. Liu, C.E. Ekuma, W.-Q. Li, J.-Q. Yang, and X.-J. Li,           |
+|             Computer Physics Communications 270, 108180, (2022)              |
+|                                                                              |
+|                                                                              |
+|          Efficient prediction of temperature-dependent elastic and           |
+|  mechanical properties of 2D materials, S.M. Kastuar, C.E. Ekuma, Z-L. Liu,  |
+|                   Nature Scientific Report 12, 3776 (2022)                   |
+|                                                                              |
+|           ElasTool v3.0: Efficient computational and visualization           |
+|         toolkit for elastic and mechanical properties of materials,          |
+|                            C.E. Ekuma, Z-L. Liu,                             |
+|             Computer Physics Communications 300, 109161, (2024)              |
++------------------------------------------------------------------------------+
+
